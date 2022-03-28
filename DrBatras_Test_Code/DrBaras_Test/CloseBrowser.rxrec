@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="eb59182d-9d1f-4ade-9aef-932c6ebce22d"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="DrBaras_Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="50f89bba-69af-4570-af58-a1541096c89c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4c402124-2d38-484d-9b7b-48102a69424e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="2e848c6d-b29a-400d-a9db-db77a4e48a84"
+	name="DrBaras_TestRepository"
+	relativepath="DrBaras_TestRepository.rxrep">
+		<codegen
+		classname="DrBaras_TestRepository"
+		namespace="DrBaras_Test">
+		</codegen>
+		<rootfolder
+		id="f10252fb-1daf-408e-acf4-e80c220d5cb8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

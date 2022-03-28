@@ -1,0 +1,698 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DrBaras_Test</name>
+    </assembly>
+    <members>
+        <member name="T:DrBaras_Test.BookAppointment">
+             <summary>
+            The BookAppointment recording.
+             </summary>
+        </member>
+        <member name="F:DrBaras_Test.BookAppointment.repo">
+            <summary>
+            Holds an instance of the DrBaras_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.BookAppointment.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.BookAppointment.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.BookAppointment.PatientName">
+            <summary>
+            Gets or sets the value of variable PatientName.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.BookAppointment.PhoneNumber">
+            <summary>
+            Gets or sets the value of variable PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.BookAppointment.email">
+            <summary>
+            Gets or sets the value of variable email.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.BookAppointment.AppointmentDay">
+            <summary>
+            Gets or sets the value of variable AppointmentDay.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.BookAppointment.City">
+            <summary>
+            Gets or sets the value of variable City.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.BookAppointment.ClincPlace">
+            <summary>
+            Gets or sets the value of variable ClincPlace.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.BookAppointment.AppTime">
+            <summary>
+            Gets or sets the value of variable AppTime.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.BookAppointment.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DrBaras_Test.BookAppointment.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.BookAppointment.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DrBaras_Test.BookAppointment.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:DrBaras_Test.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the DrBaras_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DrBaras_Test.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DrBaras_Test.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.DrBaras_TestRepository">
+            <summary>
+            The class representing the DrBaras_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the DrBaras_TestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.DrBaras_TestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepository.City">
+            <summary>
+            Gets or sets the value of variable City.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepository.ClincPlace">
+            <summary>
+            Gets or sets the value of variable ClincPlace.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepository.AppTime">
+            <summary>
+            Gets or sets the value of variable AppTime.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.DrBaras_TestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.DrBaras_TestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.DrBaras_TestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ApplicationUnderTestAppFolder.HomePage">
+            <summary>
+            The HomePage folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ApplicationUnderTestAppFolder.ChatWindow">
+            <summary>
+            The ChatWindow folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ApplicationUnderTestAppFolder.ChatBox">
+            <summary>
+            The ChatBox folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ApplicationUnderTestAppFolder.BookAppointment">
+            <summary>
+            The BookAppointment folder.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder">
+            <summary>
+            The HomePageFolder folder.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HomePage  folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.clinic_Logo">
+            <summary>
+            The clinic_Logo item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.clinic_LogoInfo">
+            <summary>
+            The clinic_Logo item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.link_Treatments">
+            <summary>
+            The link_Treatments item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.link_TreatmentsInfo">
+            <summary>
+            The link_Treatments item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.Link_Childhealth">
+            <summary>
+            The Link_Childhealth item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.Link_ChildhealthInfo">
+            <summary>
+            The Link_Childhealth item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.link_Immunity">
+            <summary>
+            The link_Immunity item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.link_ImmunityInfo">
+            <summary>
+            The link_Immunity item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.HomePageFolder.UIList">
+            <summary>
+            The UIList folder.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.DrBaras_TestRepositoryFolders.UIListFolder">
+            <summary>
+            The UIListFolder folder.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.DrBaras_TestRepositoryFolders.UIListFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new UIList  folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.UIListFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.UIListFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.UIListFolder.LinkCh">
+            <summary>
+            The LinkCh item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.UIListFolder.LinkChInfo">
+            <summary>
+            The LinkCh item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.UIListFolder.Submenu">
+            <summary>
+            The Submenu folder.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.DrBaras_TestRepositoryFolders.SubmenuFolder">
+            <summary>
+            The SubmenuFolder folder.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.DrBaras_TestRepositoryFolders.SubmenuFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Submenu  folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.SubmenuFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.SubmenuFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.SubmenuFolder.Link_Immunity">
+            <summary>
+            The Link_Immunity item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.SubmenuFolder.Link_ImmunityInfo">
+            <summary>
+            The Link_Immunity item info.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatWindowFolder">
+            <summary>
+            The ChatWindowFolder folder.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatWindowFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ChatWindow  folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatWindowFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatWindowFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatWindowFolder.btn_chatNow">
+            <summary>
+            The btn_chatNow item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatWindowFolder.btn_chatNowInfo">
+            <summary>
+            The btn_chatNow item info.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatBoxFolder">
+            <summary>
+            The ChatBoxFolder folder.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatBoxFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ChatBox  folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatBoxFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatBoxFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatBoxFolder.CloseBtn">
+            <summary>
+            The CloseBtn item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.ChatBoxFolder.CloseBtnInfo">
+            <summary>
+            The CloseBtn item info.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder">
+            <summary>
+            The BookAppointmentFolder folder.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BookAppointment  folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.btn_Consultnow">
+            <summary>
+            The btn_Consultnow item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.btn_ConsultnowInfo">
+            <summary>
+            The btn_Consultnow item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.header_BookDocConsult">
+            <summary>
+            The header_BookDocConsult item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.header_BookDocConsultInfo">
+            <summary>
+            The header_BookDocConsult item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.textbox_Name">
+            <summary>
+            The textbox_Name item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.textbox_NameInfo">
+            <summary>
+            The textbox_Name item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.textbox_Phone">
+            <summary>
+            The textbox_Phone item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.textbox_PhoneInfo">
+            <summary>
+            The textbox_Phone item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.textbox_email">
+            <summary>
+            The textbox_email item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.textbox_emailInfo">
+            <summary>
+            The textbox_email item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.checkbox_TandC">
+            <summary>
+            The checkbox_TandC item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.checkbox_TandCInfo">
+            <summary>
+            The checkbox_TandC item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.btnNext">
+            <summary>
+            The btnNext item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.btnNextInfo">
+            <summary>
+            The btnNext item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.BookAppointmentFolder.AppointmentOpt">
+            <summary>
+            The AppointmentOpt folder.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder">
+            <summary>
+            The AppointmentOptFolder folder.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AppointmentOpt  folder.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.SelectCity">
+            <summary>
+            The SelectCity item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.SelectCityInfo">
+            <summary>
+            The SelectCity item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.CityDD">
+            <summary>
+            The CityDD item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.CityDDInfo">
+            <summary>
+            The CityDD item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.SelectClinic">
+            <summary>
+            The SelectClinic item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.SelectClinicInfo">
+            <summary>
+            The SelectClinic item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.ClinicDD">
+            <summary>
+            The ClinicDD item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.ClinicDDInfo">
+            <summary>
+            The ClinicDD item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.AppointMentDay">
+            <summary>
+            The AppointMentDay item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.AppointMentDayInfo">
+            <summary>
+            The AppointMentDay item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.AppointMentTime">
+            <summary>
+            The AppointMentTime item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.AppointMentTimeInfo">
+            <summary>
+            The AppointMentTime item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.AppointMentTime_DD">
+            <summary>
+            The AppointMentTime_DD item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.AppointMentTime_DDInfo">
+            <summary>
+            The AppointMentTime_DD item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.PayentTtype">
+            <summary>
+            The PayentTtype item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.PayentTtypeInfo">
+            <summary>
+            The PayentTtype item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.PayentTtype_Value">
+            <summary>
+            The PayentTtype_Value item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.PayentTtype_ValueInfo">
+            <summary>
+            The PayentTtype_Value item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.AppConfirmation">
+            <summary>
+            The AppConfirmation item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.AppConfirmationInfo">
+            <summary>
+            The AppConfirmation item info.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.btn_confApp">
+            <summary>
+            The btn_confApp item.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.DrBaras_TestRepositoryFolders.AppointmentOptFolder.btn_confAppInfo">
+            <summary>
+            The btn_confApp item info.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:DrBaras_Test.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the DrBaras_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DrBaras_Test.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DrBaras_Test.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:DrBaras_Test.NavigateImmunityLink">
+             <summary>
+            The NavigateImmunityLink recording.
+             </summary>
+        </member>
+        <member name="F:DrBaras_Test.NavigateImmunityLink.repo">
+            <summary>
+            Holds an instance of the DrBaras_TestRepository repository.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.NavigateImmunityLink.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:DrBaras_Test.NavigateImmunityLink.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.NavigateImmunityLink.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:DrBaras_Test.NavigateImmunityLink.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:DrBaras_Test.NavigateImmunityLink.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:DrBaras_Test.NavigateImmunityLink.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

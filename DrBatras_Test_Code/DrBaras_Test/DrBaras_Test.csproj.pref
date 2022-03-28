@@ -1,0 +1,22 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="DrBaras_Test.rxtst" />
+    <Element value="BookAppointment.rxrec" />
+    <Element value="BookAppointment.UserCode.cs" />
+    <Element value="BookAppointment.cs" />
+    <Element value="NavigateImmunityLink.rxrec" />
+    <Element value="Program.cs" />
+    <Element value="DrBaras_TestRepository.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="DrBaras_Test.BookAppointment.ClickNextButton()" />
+      <Element value="DrBaras_Test.BookAppointment.ClickNextButton()" />
+    </Array>
+  </Properties>
+</Properties>
